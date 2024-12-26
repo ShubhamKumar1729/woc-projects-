@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            background-color: blue;
+            color: red;
+            height: 150px;
+            h1 {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 20px;
+                padding-top: 20px;
+                font-size: xxx-large;
+            }
+            nav {
+                display: flex;
+                justify-content: center;
+
+                a {
+                    color: orange;
+                    text-decoration: none;
+                    font-weight: 600;
+                    font-size: medium;
+                }
+                a:hover {
+                    font-size: larger;
+                }
+                a:active {
+                    color: red;
+                }
+            }
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-evenly;
+            width: 50vw;
+        }
+        .out {
+            display: flex;
+        }
+        .profile {
+            img {
+                height: 400px;
+                width: 400px;
+                border: 3px groove black;
+                border-radius: 50%;
+            }
+            padding: 100px;
+        }
+        .abc {
+            background-color: beige;
+            margin: 20px;
+            padding: 20px;
+            h2 {
+                margin: 0;
+            }
+            border-radius: 30px;
+        }
+        .box {
+            background-color: beige;
+            margin: 20px;
+            padding: 20px;
+            width: 85vw;
+            margin-left: 5%;
+            border-radius: 30px;
+        }
+        .boxx {
+            display: flex;
+            justify-content: center;
+        }
+        .boxxx {
+            display: flex;
+            justify-content: center;
+            background-color: beige;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 30px;
+            width: 85vw;
+            margin-left: 5%;
+        }
+        footer {
+            background-color: #333333;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        h2 {
+            margin-left: 50px;
+        }
+        a {
+            text-decoration: none;
+            color: orangered;
+        }
+        .box:hover {
+            filter: drop-shadow(4px 4px 4px #333333);
+            transform: translateY(-4px);
+        }
+        .abc:hover {
+            filter: drop-shadow(4px 4px 4px #333333);
+            transform: translateY(-4px);
+        }
+        img:hover {
+            filter: drop-shadow(4px 4px 4px #333333);
+            transform: translateY(-4px);
+        }
+        a:hover {
+            font-size: larger;
+        }
+        input {
+            margin-bottom: 20px;
+            width: 500px;
+            border-radius: 20px;
+            padding: 10px;
+        }
+        textarea {
+            margin-bottom: 20px;
+            width: 100%;
+            border-radius: 20px;
+            padding: 10px;
+        }
+        button {
+            font-size: large;
+            width: 100px;
+            border-radius: 40px;
+        }
+        button:hover {
+            color: orange;
+        }
+        button:active {
+            color: orangered;
+        }
+        .boxxx:hover {
+            filter: drop-shadow(4px 4px 4px #333333);
+            transform: translateY(-4px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Shubham Kumar</h1>
+        <nav>
+            <div class="navbar">
+                <a href="#about">About Me</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#certifications">Certifications</a>
+                <a href="#projects">Projects</a>
+                <a href="#goals">Goals</a>
+                <a href="#contact">Contact Me</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="out">
+            <div class="profile">
+                <img src="profile.png" alt="profile picture">
+            </div>
+            <div class="content">
+                <br>
+                <hr>
+                <section id="about">
+                    <div class="abc">
+                        <h2>About Me</h2>
+                        <br>
+                        <p>I am a passionate first-year B.Tech student specializing in Computer Science Engineering (CSE). I aim to become a skilled software developer with a focus on languages such as C++ and Java. Also i want to become a good full stack developer.</p>
+                    </div>
+                    
+                    
+                </section>
+                <hr>
+                <section id="education">
+                    <div class="abc">
+                        <h2>Education</h2>
+                        <br>
+                        <p><strong>B.Tech in Computer Science Engineering</strong><br><br>Institution: Lovely Professional University <br>Year of Study: 2024 - Present</p>
+                    </div>
+                    
+                </section>
+                <hr>
+                <section id="skills">
+                    <div class="abc">
+                        <h2>Skills</h2>
+                        <br>
+                        <div class="skills-name">
+                            <div class="skil">Python</div>
+                            <div class="skil">HTML</div>
+                            <div class="skil">CSS</div>
+                            <div class="skil">JavaScript</div>
+                        </div>
+                    </div>
+                    
+                </section>
+                
+            </div>
+        </div>
+<hr>
+        <section id="certifications">
+            <br><br>
+            <h2>Certifications</h2>
+            <br>
+            <div class="certifications-name">
+                <div class="certificate box">
+                    <h3><a href="#">Hackathon Participation Certificate</a></h3>
+                    <br><p>Drive dev , 21st Sept 2024</p>
+                </div>
+                <div class="certificate box">
+                    <h3><a href="#">Python Course Certificate</a></h3>
+                    <br><p>Udemy , 10 Oct 2024</p>
+                </div>
+                <div class="certificate box">
+                    <h3><a href="#">Open Source Community Certificate</a></h3>
+                    <br><p>GitHub Club, 18 Sept 2024</p>
+                </div>
+            </div>
+            <hr>
+        </section>
+
+        <section id="projects">
+            <br><br>
+            <h2>Projects</h2>
+            <br>
+            <div class="project box">
+                <h3>Amazon Clone</h3><br>
+                <p>A fully functional e-commerce platform created using HTML and CSS, replicating the core features of Amazon's interface.</p>
+                <br><a href="#">View Project</a>
+            </div>
+            <div class="project box">
+                <h3>Verto's Need (In Development)</h3><br>
+                <p>Currently working on an innovative platform aimed at enhancing user experience and accessibility.</p>
+                <br><a href="#">View Project</a>
+            </div>
+            <div class="project box">
+                <h3>Weather app</h3><br>
+                <p>A fully functional weather website where you can easily check your city of weather information.</p>
+                <br><a href="#">View Project</a>
+            </div>
+            <br>
+            <hr>
+            <br>
+        </section>
+
+        <section id="goals">
+            <br>
+            <h2>Goals</h2>
+            <br>
+            <div class="goal box">
+                <p>Short-Term: Deepen my understanding of programming languages and contribute to open-source projects.<br>Long-Term: Secure an internship in software development.</p>
+                <br>
+                <hr>
+            </div>
+            
+        </section>
+        <hr>
+        <section id="contact">
+            <br><br>
+            <h2>Contact me</h2><br>
+            <div class="boxxx">
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text"><br>
+              
+                    <label for="email">Email:</label>
+                    <input type="email"><br>
+              
+                    <label for="message">Message:</label><br>
+                    <textarea name="message" id="message" rows="4"></textarea><br>
+                    <div class="boxx">
+                        <button type="submit">Send</button>
+                    </div>
+                    
+                </form>
+            </div>
+            
+        </section>
+        
+    </main>
+   
+    <footer>
+        &copy shubhamkumar1729@.com
+    </footer>
+    <script>
+        
+    </script>
+</body>
+</html>
